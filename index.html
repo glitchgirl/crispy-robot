@@ -16,15 +16,22 @@
 
 </head>
 <!--The body contains actual rendered content-->
-<body>
+<body onload="createCard()">
     <h1 id="title">Blush Blush</h1>
     <div id="content">
         <div id="card">
                 <img src="randomPic" id="image" alt="person"></img>
                 <p id="name" class="info"></p>
-                <p id="job" class="info"></h2>
+                <p id="context" class="info">works at</p>
+                <p id="job" class="info"></p>
+        </div>  
+        <div id="buttons">
+            <button type="button" class="btn btn-danger" id="reject" onclick="createCard()">No, thanks</button>
+            <button type="button" class="btn btn-secondary" id="back" onclick="createCard()">No, thanks</button>
+            <button type="button" class="btn btn-success" id="accept" onclick="createMatch()">Yes, please</button>
         </div>
     </div>
+
     <!--this is a CDN link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
     <!--this is our javascript we wrote, the order matters-->
