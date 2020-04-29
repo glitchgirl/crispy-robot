@@ -1,0 +1,22 @@
+/*this is where we write code to overwrite bootstrap*/
+
+#title{
+    font-family: 'Sacramento', cursive;
+    color:#ab024e;
+    text-align:center;
+}
+#card{
+    text-align:center;
+    border: 1px #ab024e solid;
+    border-radius:15px;
+    max-width: 75%;
+    margin: auto;
+}
+#image{
+    border-radius:50%;
+    padding-top:10px;
+    max-width:25%;
+}
+.info{
+    color:#ab024e;
+}
