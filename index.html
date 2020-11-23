@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--the head contains information about our site-->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blush blush</title>
-    <!--below is a CDN for bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--this is our CSS sheet, order matters-->
-    <link rel="stylesheet" href="main.css">
-  
-    <!--this is a CDN for fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-
-</head>
-<!--The body contains actual rendered content-->
-<body onload="createCard()">
-    <h1 id="title">Blush Blush</h1>
-    <div id="content">
-        <div id="card">
-                <img src="randomPic" id="image" alt="person"></img>
-                <p id="name" class="info"></p>
-                <p id="context" class="info">works at</p>
-                <p id="job" class="info"></p>
-        </div>  
-        <div id="buttons">
-            <button type="button" class="btn btn-danger" id="reject" onclick="createCard()">No, thanks</button>
-            <button type="button" class="btn btn-secondary" id="back" onclick="createCard()">go back</button>
-            <button type="button" class="btn btn-success" id="accept" onclick="createMatch()">Yes, please</button>
-        </div>
-    </div>
-
-    <!--this is a CDN link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
-    <!--this is our javascript we wrote, the order matters-->
-    <script src="index.js"></script>
-</body>
+  <!--the head contains information about our site-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Morgan Makes</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>about</li>
+        <li>contact</li>
+        <li>etsy</li>
+        <li>ebay</li>
+      </ul>
+      <div id="intro-blurb">
+        <p>
+          hi! my name is Morgan, and during the day I am full stack developer
+        </p>
+        <p>in my free time i make resin earrings and custom dice</p>
+        <p>check out these new projects!</p>
+      </div>
+      <div id="inspo-blurb">
+        <p>
+          I am inspired by witchy and natural elements (like Ursla from kikis
+          devilery service)
+        </p>
+        <p>dystopian neon (blade runner, shadow run)</p>
+        <p>I also love creepy things!</p>
+      </div>
+    </header>
+  </body>
 </html>
